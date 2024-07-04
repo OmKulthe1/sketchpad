@@ -15,10 +15,8 @@ function changeSquareColor(event) {
 }
 
 function clSquares() {
-  const squares = document.querySelectorAll('.square');
-  squares.forEach(square => {
-    square.style.backgroundColor = `white`;
-  });
+  createSquares();
+  setSquareSize();
 }
 
 function updateGrid() {
